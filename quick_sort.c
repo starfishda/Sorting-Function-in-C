@@ -1,4 +1,4 @@
-#include<stdio.h>
+ï»¿#include<stdio.h>
 #include<stdlib.h>
 
 void quicksort(int score[], int l, int r)
@@ -32,7 +32,7 @@ void quicksort(int score[], int l, int r)
 int main(void)
 {
 	int data[10] = { 8,6,7,0,2,4,3,5,9,1 };
-	quicksort(data, 0, 10-1); //Á¤·Ä 1,2.3...
+	quicksort(data, 0, 10 - 1); //ÃÂ¤Â·Ã„ 1,2.3...
 
 	for (int i = 0; i < 10; i++)
 		printf("%d\n", data[i]);
